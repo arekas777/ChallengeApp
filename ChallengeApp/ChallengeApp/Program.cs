@@ -1,11 +1,19 @@
-﻿var number1 = 50;
-var number2 = 10;
+﻿var name = "AREK";
+var age = 33;
 
-if(number1 < number2)
+if (name == "AREK" && age < 50)
 {
-    Console.WriteLine("LINIA NR 6");
+    Console.WriteLine("JESTEM AREK PRED PIĘĆDZIESIĄTKĄ");
 }
-else
+else if (age > 40)
 {
-    Console.WriteLine("LINIA NR 10");
+    Console.WriteLine("40-50");
+}
+else if (age > 30)
+{
+    Console.WriteLine("30-40");
+}
+else if (age > 20)
+{
+    Console.WriteLine("20-30");
 }
